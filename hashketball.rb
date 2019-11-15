@@ -288,7 +288,7 @@ def player_with_most_steals
   team_deets[:players].each { |player_hash|
   if player_hash[:steals] > high_steals
     big_theif = player_hash[:player_name]
-    high_score = player_hash[:steals]
+    high_steals = player_hash[:steals]
     binding.pry
   end
   }
